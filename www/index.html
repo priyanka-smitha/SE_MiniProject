@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+
+
+
+		<title>YOUR SINGLE-PAGE APP</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css" media="screen">
+		 <link rel="stylesheet" href="css/local.css" media="screen">
+		<script src="js/libs.js" type="text/javascript"></script>
+		<script src="js/test.js" type="text/javascript"></script>
+	
+	</head>
+
+ 	<div class="container">
+      <div class="page-header" id="banner">
+      	<div class="row">
+         	<div class="col-lg-6 col-md-6 col-sm-4">
+         		
+		<h1> Woohoo Safari Zoo!</h1>
+
+
+
+
+
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-3">
+         		<h1>Discount on tickets! Sale ends:</h1>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-2">
+         		<h2>
+
+<div id="countdown"></div>
+<script src="js/d3_test2.js" type="text/javascript"></script>
+
+</h2>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+	<div class="col-lg-10 col-lg-offset-1 col-sm-12 col-sm-offset-2" >
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">About Us</a></li>
+        <li class="active"><a href="#">Volunteer</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Meet the Animals<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Birds</a></li>
+            <li><a href="#">Reptiles</a></li>
+            <li><a href="#">Animals</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Lion Safari</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Crocodile Safari</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Donations</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contact Us</a></li>
+
+        
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+	</div><!-- Alignment -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+<div class="container">
+	<div id= "image">
+	<div class="col-lg-10 col-lg-offset-1 col-sm-8 col-sm-offset-2" >
+		<img src="1682591983_orig.jpg" alt="Cub">
+</div>
+</div>
+</div>
+
+
+
+
+
+
+	<div class="container">
+		<div class="row  " >
+			<div class="col-lg-10 col-lg-offset-1 col-sm-10 col-sm-offset-2" >
+				<div class=" well" id="page_matter">
+					<p class="text-info lead"></p>
+					<p id="volunteer">Sign up for Volunteering today!</p>
+					<p id="details">Details:</p>
+					<p id="values">First name: <input data-bind="value: firstName" id="display"/></p>
+<p id="values">Last name: <input data-bind="value: lastName" id="display" /></p>
+<p id="values">Email ID:&nbsp&nbsp&nbsp<input data-bind="value: email_id" id="display"/></p>
+<button type="submit">Submit</button>
+
+<p id="show">Hello, <span data-bind="text: fullName"> </span>!</p>
+
+
+
+				
+			
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+<body>
+<div class="col-lg-12 col-lg-offset-2"\>
+<script src="js/d3_test.js" type="text/javascript"></script>
+</div>
+</body>
+
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<ul class="list-inline">
+						<li class="pull-right"><a href="#top">Back to top</a></li>
+						<li><a href="/">HOME</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</html>
+<script>
+ko.applyBindings(new ViewMyModel("Priyanka","Shankaran","abc@xyz.com"));
+</script>
+
+
+
+<!--References:http://knockoutjs.com/examples/helloWorld.html-->
+<!--//http://getbootstrap.com/components/#navbar-->
