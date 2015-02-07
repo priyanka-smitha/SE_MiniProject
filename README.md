@@ -1,3 +1,6 @@
+
+(Imported from GitHub NCSU)
+
 Mini Project 1
 ==============
 
