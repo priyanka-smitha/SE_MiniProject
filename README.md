@@ -1,5 +1,5 @@
 
-(Imported from GitHub NCSU)
+[Imported from GitHub NCSU]
 
 Mini Project 1
 ==============
