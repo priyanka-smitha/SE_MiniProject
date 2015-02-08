@@ -1,3 +1,2 @@
 #!/bin/bash
-clear
-echo -e "Hello"
+which git
