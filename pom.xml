@@ -1,17 +1,23 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>God</groupId>
-	<artifactId>God-parent</artifactId>
+	<groupId>Milestone1</groupId>
+	<artifactId>Milestone1-parent</artifactId>
 	<version>1</version>
 	<properties>
 <org.springframework.version>3.0.0.RELEASE</org.springframework.version>
 </properties>
 	<dependencies>
-		<!-- <dependency>
-                <groupId>com.google.guava</groupId>
-                <artifactId>guava</artifactId>
-                <version>18.0</version>
-		</dependency> -->
+		<dependency>
+			<groupId>javax.transaction</groupId>
+			<artifactId>jta</artifactId>
+			<version>1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-servlet_2.5_spec</artifactId>
+			<version>1.2</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>org.python</groupId>
 			<artifactId>jython</artifactId>
@@ -22,11 +28,6 @@
 			<artifactId>spring-core</artifactId>
 			<version>${org.springframework.version}</version>
 		</dependency>
-		<!-- <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-math3</artifactId>
-                <version>3.4.1</version>
-            </dependency> -->
 	</dependencies>	
 </project>
 
