@@ -1,8 +1,8 @@
 #!/bin/bash
-git clone https://github.com/SkymindIO/nd4j
-cd nd4j
-for i in 'seq 1 5';
+git clone https://github.com/SkymindIO/jcuda-windows64
+cd jcuda-windows64
+for i in {1..5}
 do
-	echo $i
+	echo "Welcome $i times"
 done
 echo "Successfully executed the shell script"
