@@ -13,7 +13,7 @@ Project Team Members:
 Our build server has been setup by configuring Jenkins. 
 The Windows version of Jenkins has been installed, on our local machine, on port 8080. Using the web GUI of Jenkins, we have configured the features required for this milestone. The steps below describe each capability of the build server:
 
-****Step 1: The ability to trigger a build in response to a git commit via a git hook.****
+**Step 1: The ability to trigger a build in response to a git commit via a git hook.**
 
 1] On Jenkins' side- GitHub plugin and Git plugin were installed.
 
@@ -32,7 +32,7 @@ The Windows version of Jenkins has been installed, on our local machine, on port
 ![alt tag](screenshots/1d.png)
 
 ---------------
-****Step 2: The ability to setup dependencies to a project and restore to a clean state.****
+**Step 2: The ability to setup dependencies to a project and restore to a clean state.**
 
 1] We have installed and configured Maven to install dependencies automatically. Maven reads a pom.xml file, which lists the dependencies of the project. A pom.xml file has been added to our repository with the required dependencies. 
 
@@ -48,7 +48,7 @@ The Windows version of Jenkins has been installed, on our local machine, on port
 
 ![alt tag](screenshots/2c.png)
 
-****Step 3: The ability to execute a build script (e.g.: shell, maven).****
+**Step 3: The ability to execute a build script (e.g.: shell, maven).**
 
 1] We configured the 'Execute the Windows batch command' option for the project with the shell script 'myshell.sh'.
 
@@ -60,7 +60,7 @@ The Windows version of Jenkins has been installed, on our local machine, on port
 
 ![alt tag](screenshots/3b.png)
 
-****Step 4: The ability to run a build on multiple nodes.****
+**Step 4: The ability to run a build on multiple nodes.**
 
 1] We have configured Jenkins slaves using the 'Manage Node' option on the Jenkins GUI. We have created a single slave called 'Slave1', as shown in the screenshot below.
 
@@ -86,7 +86,7 @@ The screenshot below explains our configuration:
 
 ![alt tag](screenshots/2projects.png)
 
-****Step 5: The ability to retrieve the status of the build via http.****
+**Step 5: The ability to retrieve the status of the build via http.**
 
 1] We have used the inbuilt capability of Jenkins to check the status of our builds. The screenshots below show us the status for the project and also on clicking the links, we will be able to see the status of individual builds.
 
