@@ -1,2 +1,2 @@
 #!/bin/bash
-which git
+echo "hello...god!"
