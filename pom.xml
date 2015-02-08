@@ -1,13 +1,25 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>csc591</groupId>
-	<artifactId>csc591-parent</artifactId>
+	<groupId>Milestone1</groupId>
+	<artifactId>Milestone1-parent</artifactId>
 	<version>1</version>
 	<dependencies>
+		<dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>18.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.python</groupId>
 			<artifactId>jython</artifactId>
 			<version>2.5.0</version>
 		</dependency>
+		<dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-math3</artifactId>
+                <version>3.4.1</version>
+            </dependency>
 	</dependencies>	
 </project>
+
+		

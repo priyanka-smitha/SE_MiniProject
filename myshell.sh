@@ -1,3 +1,5 @@
 #!/bin/bash
-echo "hello...god!"
-echo "trial and error"
+git clone https://github.com/SkymindIO/nd4j
+cd nd4j
+mvn clean install -DskipTests -Dmaven.javadoc.skip=true
+echo "Successfully executed the build script"
