@@ -1,7 +1,7 @@
 <project>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>Milestone1</groupId>
-	<artifactId>Milestone1-parent</artifactId>
+	<groupId>God</groupId>
+	<artifactId>God-parent</artifactId>
 	<version>1</version>
 	<dependencies>
 		<dependency>
