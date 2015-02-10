@@ -97,4 +97,4 @@ The screenshot below explains our configuration:
 
 ###Configuration Files and Code
 ----------------------------------
-The configuration file (config.xml) as well as all the code (for the project being built), the file specifying dependencies (pom.xml), and the shell script (myshell.sh), has been placed in the repository.
+The configuration file (config.xml and config_project.xml) as well as all the code (for the project being built), the file specifying dependencies (pom.xml), and the shell script (myshell.sh), has been placed in the repository.
